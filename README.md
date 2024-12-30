@@ -1,27 +1,24 @@
-# Healthcare Kits Distribution Analysis Dashboard
+# Mother and Child Health Kit Analysis Dashboard
 
-A Streamlit dashboard analyzing the distribution of healthcare kits to pregnant women in Telangana.
+A Streamlit dashboard for analyzing Mother and Child Health Kit distribution and related health metrics.
 
-## 🚀 Demo
-Access the live dashboard [here](https://your-streamlit-url)
-
-## 📊 Features
-- District-wise registration analysis
-- ANC visit tracking
-- Kit distribution statistics
-- Delivery count visualization
-- Interactive data explorer
-
-## 🛠️ Installation & Running Locally
+## Setup
 1. Clone the repository
-2. Install dependencies:
+2. Install requirements:
    ```bash
    pip install -r requirements.txt
    ```
-3. Run the dashboard:
+3. Run the app:
    ```bash
    streamlit run healthcare.py
    ```
+
+## Features
+- Key metrics overview
+- Registration trends by district
+- ANC visit analysis
+- Geographical distribution of kits
+- Interactive data explorer
 
 ## 📁 Project Structure
 - `healthcare.py`: Main dashboard application
