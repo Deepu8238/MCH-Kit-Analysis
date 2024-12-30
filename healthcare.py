@@ -42,9 +42,7 @@ st.markdown('---')
 try:
     data = load_data()
     
-    # Debug information
-    st.write("CSV Columns:", data.columns.tolist())
-    st.write("First few rows:", data.head())
+    
     
     # Dashboard Layout
     col1, col2 = st.columns(2)
