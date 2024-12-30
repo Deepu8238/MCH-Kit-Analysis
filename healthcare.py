@@ -3,8 +3,6 @@ import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
-import seaborn as sns
-import matplotlib.pyplot as plt
 import numpy as np
 
 # Set page configuration
@@ -34,7 +32,7 @@ st.markdown("""
 # Load the data
 @st.cache_data
 def load_data():
-    data = pd.read_csv(r'C:\Users\akula\OneDrive\Desktop\health-care-kits-distribution-schema-for-pregant-women--in-telangana-data-analysis---\deepu.csv')
+    data = pd.read_csv('deepu.csv')
     return data
 
 # Main title with styling
